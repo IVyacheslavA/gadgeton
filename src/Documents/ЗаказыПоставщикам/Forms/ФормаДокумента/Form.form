@@ -739,6 +739,194 @@
     <fileDragMode>AsFileRef</fileDragMode>
     <rowFilter xsi:type="core:UndefinedValue"/>
   </items>
+  <items xsi:type="form:FormGroup">
+    <name>Группа1</name>
+    <id>46</id>
+    <items xsi:type="form:Button">
+      <name>Команда1</name>
+      <id>54</id>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <extendedTooltip>
+        <name>Команда1РасширеннаяПодсказка</name>
+        <id>56</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <type>UsualButton</type>
+      <commandName>Form.Command.Команда1</commandName>
+      <representation>Auto</representation>
+      <autoMaxWidth>true</autoMaxWidth>
+      <autoMaxHeight>true</autoMaxHeight>
+      <placementArea>UserCmds</placementArea>
+      <representationInContextMenu>Auto</representationInContextMenu>
+    </items>
+    <items xsi:type="form:FormGroup">
+      <name>Группа2</name>
+      <id>55</id>
+      <items xsi:type="form:Button">
+        <name>Команда2</name>
+        <id>52</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <extendedTooltip>
+          <name>Команда2РасширеннаяПодсказка</name>
+          <id>53</id>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <type>Label</type>
+          <autoMaxWidth>true</autoMaxWidth>
+          <autoMaxHeight>true</autoMaxHeight>
+          <extInfo xsi:type="form:LabelDecorationExtInfo">
+            <horizontalAlign>Left</horizontalAlign>
+          </extInfo>
+        </extendedTooltip>
+        <type>UsualButton</type>
+        <commandName>Form.Command.Команда2</commandName>
+        <representation>Auto</representation>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <placementArea>UserCmds</placementArea>
+        <representationInContextMenu>Auto</representationInContextMenu>
+      </items>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <title>
+        <key>ru</key>
+        <value>Группа2</value>
+      </title>
+      <extendedTooltip>
+        <name>Группа2РасширеннаяПодсказка</name>
+        <id>51</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <type>UsualGroup</type>
+      <extInfo xsi:type="form:UsualGroupExtInfo">
+        <group>HorizontalIfPossible</group>
+        <behavior>Auto</behavior>
+        <showLeftMargin>true</showLeftMargin>
+        <united>true</united>
+        <throughAlign>Auto</throughAlign>
+        <currentRowUse>Auto</currentRowUse>
+      </extInfo>
+    </items>
+    <items xsi:type="form:FormField">
+      <name>Реквизит1</name>
+      <id>48</id>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <dataPath xsi:type="form:DataPath">
+        <segments>Реквизит1</segments>
+      </dataPath>
+      <extendedTooltip>
+        <name>Реквизит1РасширеннаяПодсказка</name>
+        <id>50</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <contextMenu>
+        <name>Реквизит1КонтекстноеМеню</name>
+        <id>49</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <autoFill>true</autoFill>
+      </contextMenu>
+      <type>InputField</type>
+      <editMode>Enter</editMode>
+      <showInHeader>true</showInHeader>
+      <headerHorizontalAlign>Left</headerHorizontalAlign>
+      <showInFooter>true</showInFooter>
+      <extInfo xsi:type="form:InputFieldExtInfo">
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <wrap>true</wrap>
+        <chooseType>true</chooseType>
+        <typeDomainEnabled>true</typeDomainEnabled>
+        <textEdit>true</textEdit>
+      </extInfo>
+    </items>
+    <visible>true</visible>
+    <enabled>true</enabled>
+    <userVisible>
+      <common>true</common>
+    </userVisible>
+    <title>
+      <key>ru</key>
+      <value>Группа1</value>
+    </title>
+    <extendedTooltip>
+      <name>Группа1РасширеннаяПодсказка</name>
+      <id>47</id>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <type>Label</type>
+      <autoMaxWidth>true</autoMaxWidth>
+      <autoMaxHeight>true</autoMaxHeight>
+      <extInfo xsi:type="form:LabelDecorationExtInfo">
+        <horizontalAlign>Left</horizontalAlign>
+      </extInfo>
+    </extendedTooltip>
+    <type>UsualGroup</type>
+    <extInfo xsi:type="form:UsualGroupExtInfo">
+      <group>HorizontalIfPossible</group>
+      <behavior>Auto</behavior>
+      <representation>WeakSeparation</representation>
+      <showLeftMargin>true</showLeftMargin>
+      <united>true</united>
+      <showTitle>true</showTitle>
+      <throughAlign>Auto</throughAlign>
+      <currentRowUse>Auto</currentRowUse>
+    </extInfo>
+  </items>
   <autoCommandBar>
     <name>ФормаКоманднаяПанель</name>
     <id>-1</id>
@@ -777,6 +965,36 @@
     <main>true</main>
     <savedData>true</savedData>
   </attributes>
+  <attributes>
+    <name>Реквизит1</name>
+    <id>2</id>
+    <valueType>
+      <types>String</types>
+      <stringQualifiers/>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+  </attributes>
+  <formCommands>
+    <name>Команда1</name>
+    <id>1</id>
+    <use>
+      <common>true</common>
+    </use>
+    <currentRowUse>Auto</currentRowUse>
+  </formCommands>
+  <formCommands>
+    <name>Команда2</name>
+    <id>2</id>
+    <use>
+      <common>true</common>
+    </use>
+    <currentRowUse>Auto</currentRowUse>
+  </formCommands>
   <commandInterface>
     <navigationPanel/>
     <commandBar/>
